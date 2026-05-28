@@ -17,7 +17,7 @@ export default function HidroBot() {
       setScreen("inicio");
       const hide = setTimeout(() => setOverlayVisible(false), 500);
       return () => clearTimeout(hide);
-    }, 7000);
+    }, 3500);
     return () => clearTimeout(timer);
   }, []);
 
@@ -69,7 +69,7 @@ export default function HidroBot() {
         {screen === "splash" && (
           <div className="fixed inset-0 bg-white flex items-center justify-center z-[9999]">
             <div className="animate-fade-in flex flex-col items-center px-8 sm:px-16 text-center">
-              <img src={newLogoPath} alt="Logo Hidro Sinú" className="animate-bounce-logo mb-6 w-24 h-24 sm:w-36 sm:h-36 lg:w-44 lg:h-44 object-contain rounded-2xl" />
+              <img src={newLogoPath} alt="Logo Hidro Sinú" className="mb-6 w-24 h-24 sm:w-36 sm:h-36 lg:w-44 lg:h-44 object-contain rounded-2xl" />
               <div className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8 tracking-wide text-black">Hidro Sinú</div>
               <div className="w-64 sm:w-72 h-1.5 bg-slate-200 rounded-full overflow-hidden">
                 <div className="splash-progress-bar" />
