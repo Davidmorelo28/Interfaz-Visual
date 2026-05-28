@@ -87,7 +87,7 @@ export default function HidroBot() {
               <strong>Hola Usuario,</strong>{" "}Este es un sistema automático que monitorea el clima y el nivel del río Sinú para brindar información oportuna, de calidad y en tiempo real para todas las personas.
             </div>
             <div className="text-center text-base sm:text-lg font-semibold text-blue-800 mb-5">¿Qué deseas consultar?</div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 gap-4">
               {[
                 { tipo: "hoy", emoji: "☀️", titulo: "Pronóstico de Hoy", descripcion: "Consulta el estado actual del clima y del río." },
                 { tipo: "mañana", emoji: "🌤️", titulo: "Pronóstico de Mañana", descripcion: "Comportamiento del clima para mañana y tendencia estimada del río Sinú." },
