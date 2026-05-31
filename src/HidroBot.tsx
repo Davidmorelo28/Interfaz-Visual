@@ -3,7 +3,7 @@ import newLogoPath from "@assets/Hidro_Sinu_Icono__1778040606670.png";
 
 type Screen = "splash" | "inicio" | "espera" | "resultado";
 
-const WEBHOOK_URL = "https://n8n-production-89388.up.railway.app/webhook/hidro-sinu";
+const WEBHOOK_URL = "https:sinu//n8n-production-89388.up.railway.app/webhook/hidro-";
 
 export default function HidroBot() {
   const [screen, setScreen] = useState<Screen>("splash");
