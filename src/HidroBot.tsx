@@ -70,7 +70,7 @@ export default function HidroBot() {
         {screen === "splash" && (
           <div className="fixed inset-0 bg-white flex items-center justify-center z-[9999]">
             <div className="animate-fade-in flex flex-col items-center px-8 sm:px-16 text-center">
-              <img src={newLogoPath} alt="Logo Hidro Sinú" className="mb-6 w-24 h-24 sm:w-36 sm:h-36 lg:w-44 lg:h-44 object-contain rounded-2xl" />
+              <img src={newLogoPath} alt="Logo Hidro Sinú" className="mb-6 w-24 h-24 sm:w-36 sm:h-36 lg:w-44 lg:h-44 object-contain" />
               <div className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8 tracking-wide text-black">Hidro Sinú</div>
               <div className="w-64 sm:w-72 h-1.5 bg-slate-200 rounded-full overflow-hidden">
                 <div className="splash-progress-bar" />
@@ -81,7 +81,7 @@ export default function HidroBot() {
         {screen === "inicio" && (
           <div className="animate-slide-up bg-white rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-10">
             <div className="flex flex-col items-center mb-6 sm:mb-8">
-              <img src={newLogoPath} alt="Hidro Sinú Logo" className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 object-contain rounded-2xl mb-3" style={{ boxShadow: "0 10px 30px rgba(21,101,192,0.25)" }} />
+              <img src={newLogoPath} alt="Hidro Sinú Logo" className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 object-contain mb-3" style={{ boxShadow: "0 10px 30px rgba(21,101,192,0.25)" }} />
               <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-800">Hidro Sinú</div>
             </div>
             <div className="text-sm sm:text-base rounded-2xl p-4 sm:p-5 mb-6 leading-relaxed" style={{ background: "linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%)", borderLeft: "4px solid #1565c0", color: "#0d47a1" }}>
