@@ -81,7 +81,7 @@ export default function HidroBot() {
         {screen === "inicio" && (
           <div className="animate-slide-up bg-white rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-10">
             <div className="flex flex-col items-center mb-6 sm:mb-8">
-              <img src={newLogoPath} alt="Hidro Sinú Logo" className="w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28 object-contain mb-3"
+              <img src={newLogoPath} alt="Hidro Sinú Logo" className="w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28 object-contain mb-3">
               <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-800">Hidro Sinú</div>
             </div>
             <div className="text-sm sm:text-base rounded-2xl p-4 sm:p-5 mb-6 leading-relaxed" style={{ background: "linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%)", borderLeft: "4px solid #1565c0", color: "#0d47a1" }}>
